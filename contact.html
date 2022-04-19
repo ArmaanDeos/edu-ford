@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Eduford</title>
+
+    <script src="https://kit.fontawesome.com/4409a90f33.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+    <!-- Stylesheet Css  -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <section class="subHeader">
+
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+       <h1>Contact Us</h1>
+    </section>
+
+    <!-- contact us content  -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1582.9538577331828!2d103.77192201358368!3d1.2984660927156229!3m2!1i1024!2i768!4f13.1!5e0!3m2!1shi!2sin!4v1649478551964!5m2!1shi!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-Home"></i>
+                    <span>
+                        <h5>XYZ, Road, ABC Building</h5>
+                        <p>Monday to Saturday, 10 AM to 6 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>9554443383</h5>
+                        <p>Monday to Saturday, 10 AM to 6 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>ahmad.arman.does@gamil.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="contact-col">
+                <form action="">
+                <input type="text" placeholder="Enter Your Name " required>
+                <input type="text" placeholder="Enter Email Address " required>
+                <input type="text" placeholder="Enter Your Subject " required>
+                <textarea  rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="visit-btn red-btn">Send Message</button>
+            </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- footer section   -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sapiente eveniet, explicabo, totam aspernatur magni incidunt reiciendis consequatur exercitationem 
+           <br> fugit pariatur odio sequi? Labore maiores doloremque voluptatum voluptas quisquam nisi.</p>
+           <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa fa-heart-o"></i> by Armaan Web Developer </p>
+    </section>
+
+
+
+    <!-- javascript for nav menu toggle  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+
+</html>
